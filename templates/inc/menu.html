@@ -1,0 +1,34 @@
+<header class="navbar">
+    <div class="nav-left">
+      <div class="menu-icon" onclick="toggleSidebar()">&#9776;</div>
+      <h1>Sundarban Development</h1>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li class="dropdown">
+        <a href="/about/">About Us ▾</a>
+        <ul class="dropdown-content">
+          <li><a href="#who">Who We Are</a></li>
+          <li><a href="#where">Where We Work</a></li>
+          <li><a href="#what">What We Do</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <a href="/catalogue/">Catalogue ▾</a>
+        <ul class="dropdown-content">
+          <li><a href="#sell">Products we sell</a></li>
+          <li><a href="#sources">Sources of the products</a></li>
+        </ul>
+      </li>
+
+      <li><a href="/contact/">Contact</a></li>
+      <li><button class="logout-btn">Logout</button></li>
+    </ul>
+
+    <div class="search-container">
+      <input type="text" placeholder="Search..." class="search-input" />
+      <i class="fas fa-search search-icon" onclick="toggleSearch()"></i>
+    </div>
+  </header>

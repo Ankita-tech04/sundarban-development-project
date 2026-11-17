@@ -1,0 +1,162 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUNDARBAN DEV PROJECT</title>
+
+  <link rel="stylesheet" href="{% static '/frontend/css/style.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+
+  </style>
+
+</head>
+<script src="{% static '/frontend/js/script.js' %}"></script>
+
+<body>
+  <!-- Navbar -->
+  
+{% include "inc/menu.html" %}
+  <!-- Hero Section -->
+  <section class="hero text-right">
+    <div id="main-content">
+      <h1 class="display-4">
+        <span class="typing-effect">
+          EMPOWERING SUNDARBAN
+          <p>
+          <h5>Sustainability, Development, Conservation, and Community Growth</h5>
+          </p>
+        </span>
+      </h1>
+    </div>
+  </section>
+
+
+  <!-- Welcome Section -->
+  <section id="home-details">
+    <div class="container">
+      <h2 class="section-title">Welcome to Sundarban Development</h2>
+      <p class="content">
+        Our mission is to bring sustainable growth and upliftment to the Sundarban region through the promotion of local products, eco-friendly practices, and community-based development.At Sundarban Development, we are dedicated to fostering sustainable growth in the Sundarban region. Our mission is to uplift local communities by promoting eco-friendly practices, supporting local artisans and farmers, and encouraging sustainable development. Through a collaborative approach, we work alongside communities to empower them with resources, education, and opportunities that enhance their livelihoods while preserving the natural environment. We believe in creating a future where both nature and people thrive together.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- About Us -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Us</h2>
+    <p class="content">
+       Sundarban Development Initiative is a grassroots organization committed to the social and economic betterment of the Sundarban region. We aim to drive change by addressing key challenges such as climate change, livelihood improvement, education, and community-based tourism. Our team works in close partnership with local stakeholders to implement projects that respect the rich cultural heritage and biodiversity of the region. Through education, advocacy, and collaboration, we aim to create a sustainable and resilient community, ensuring a brighter future for the people of Sundarban.
+    </p>
+  </div>
+</section>
+
+<!-- Catalogue -->
+<section id="catalogues" class="catalogues">
+  <!-- Section Title for Catalogue -->
+  <div class="catalogue-title">
+    <h2>Our Product Catalogue</h2>
+  </div>
+
+  <div class="catalogue">
+    <img src="{% static '/frontend/image/ORGANIC_HONEY.jpg' %}" alt="Organic Honey">
+    <div class="catalogue-details">
+      <h3>Organic Sundarban Honey</h3>
+      <p>Pure, organic honey harvested from the Sundarban forests.</p>
+      <button type="button">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="catalogue">
+    <img src="{% static '/frontend/image/HANDICRAFT.jpg' %}" alt="Local Handicrafts">
+    <div class="catalogue-details">
+      <h3>Local Handicrafts</h3>
+      <p>Handmade products from local artisans of Sundarban.</p>
+      <button type="button">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="catalogue">
+    <img src="{% static '/frontend/image/HERBAL_TEA.webp' %}" alt="Herbal Forest Tea">
+    <div class="catalogue-details">
+      <h3>Herbal Forest Tea</h3>
+      <p>Natural tea made from forest herbs with medicinal properties.</p>
+      <button type="button">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+</section>
+
+
+  <!-- ✨ Insert New Sections BELOW Catalogue -->
+
+  <!-- Our Mission & Vision -->
+  <section class="mission">
+    <h2>🌱 Our Mission & Vision</h2><br><br>
+    <p>We strive to empower the communities of Sundarban...</p><br>
+    <div class="vision-box">
+      <div class="card">
+        <h3>🌍 Sustainability</h3>
+        <p>Eco-friendly farming and forest conservation.</p>
+      </div>
+      <div class="card">
+        <h3>🤝 Community Growth</h3>
+        <p>Uplifting local artisans through training and fair trade.</p>
+      </div>
+      <div class="card">
+        <h3>🦁 Wildlife Protection</h3>
+        <p>Safeguarding the natural habitat...</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <h2>📸 Gallery</h2><br>
+    <div class="gallery-grid">
+      <img src="{% static '/frontend/image/TIGER.jpg' %}" alt="Tiger">
+      <img src="{% static '/frontend/image/ORGANIC_HONEY.jpg' %}" alt="Honey">
+      <img src="{% static '/frontend/image/Handicrafts.jpg' %}" alt="Handicrafts">
+      <img src="{% static '/frontend/image/Mangroves.jpg' %}" alt="Forest">
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>💬 What People Say</h2>
+    <div class="testimonial-card">
+      <p>"The Sundarban Honey is the purest I’ve ever tasted. Great initiative!"</p>
+      <h4>- Aditi Sharma</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"Buying handicrafts directly from artisans makes me feel connected to their culture."</p>
+      <h4>- Rahul Verma</h4>
+    </div>
+  </section>
+
+
+  
+
+
+<div class="footer">
+    <p>🌿 Sundarban Development © 2025 | All Rights Reserved</p>
+    <p>
+      Follow us:
+      <a href="https://www.facebook.com/YourPage" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/YourPage" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/YourPage" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+    </p>
+  </div>
+  
+  
+  
+  
